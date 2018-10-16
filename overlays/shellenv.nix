@@ -9,5 +9,8 @@ self: super: {
       ];
       GEM_HOME = "${builtins.toPath ./.}/vendor/gems";
     };
+    blackops = self.mkShell {
+      buildInputs = with self.pkgs; [ gnupg blackbox ] ;
+    };
   };
 }
