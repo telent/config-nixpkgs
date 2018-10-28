@@ -4,5 +4,8 @@ self: super: {
       clojure-mode
       cider
       use-package
+      ox-reveal
+    ]) ++ (with epkgs.elpaPackages; [
+      org
     ]));
 }
