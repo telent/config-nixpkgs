@@ -8,6 +8,7 @@ self: super: {
       jq
       tmux
       vim
+      git
     ];
   };
 }
