@@ -3,12 +3,12 @@ self: super: {
     name = "desktop";
     paths = with self.pkgs; [
       nix cacert # nothing else works without these
-      pass
       emacs
+      git
       jq
+      pass
       tmux
       vim
-      git
-    ];
+   ];
   };
 }
