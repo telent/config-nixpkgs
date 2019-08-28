@@ -3,10 +3,19 @@ self: super: {
     name = "desktop";
     paths = with self.pkgs; [
       nix cacert # nothing else works without these
-      pass
       emacs
+      firefox-beta-bin          # from the mozilla-nixpkgs overlay
+      gitFull
+      gnumake
+      irssi
       jq
+      mplayer
+      mupdf
+      notmuch muchsync
+      pass
+      qiv
       tmux
+      unzip
       vim
     ];
   };
