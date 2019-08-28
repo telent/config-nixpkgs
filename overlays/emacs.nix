@@ -11,5 +11,5 @@ self: super: {
     ]) ++ (with epkgs.elpaPackages; [
       org
     ]) ++ (with self.pkgs; [ fennel_mode ] )
-    );
+  );
 }
