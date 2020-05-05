@@ -9,6 +9,7 @@ self: super: {
       firefox
       gitFull
       gnumake
+      gnupg pinentry-gnome
       irssi
       jq
       mplayer
