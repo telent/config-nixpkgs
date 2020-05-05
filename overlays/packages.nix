@@ -3,4 +3,5 @@ self: super: {
   mame = super.callPackage ../pkgs/mame {};
   faifa = super.callPackage ../pkgs/faifa {};
   configure-firefox = super.callPackage ../pkgs/configure-firefox {};
+  fennel_mode = super.callPackage ../pkgs/fennel_mode {};
 }
