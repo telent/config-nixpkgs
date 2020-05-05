@@ -1,0 +1,9 @@
+[Unit]
+Description=Configure Firefox prefs and extensions
+
+[Service]
+Type=oneshot
+ExecStart=@CONFIGURE-FIREFOX@
+
+[Install]
+WantedBy=default.target
