@@ -5,8 +5,8 @@ self: super: {
       nix cacert # nothing else works without these
       alacritty
       emacs
-      firefox-beta-bin          # from the mozilla-nixpkgs overlay
       file
+      firefox
       gitFull
       gnumake
       irssi
