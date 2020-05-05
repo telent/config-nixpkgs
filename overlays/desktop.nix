@@ -6,7 +6,7 @@ self: super: {
       alacritty
       emacs
       file
-      firefox
+      firefox configure-firefox
       gitFull
       gnumake
       gnupg pinentry-gnome
