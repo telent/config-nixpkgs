@@ -6,6 +6,7 @@ self: super: {
       alacritty
       emacs
       firefox-beta-bin          # from the mozilla-nixpkgs overlay
+      file
       gitFull
       gnumake
       irssi
@@ -14,10 +15,12 @@ self: super: {
       mupdf
       notmuch muchsync
       pass
+      powertop
       qiv
       tmux
       unzip
       vim
+      whois
     ];
   };
 }
