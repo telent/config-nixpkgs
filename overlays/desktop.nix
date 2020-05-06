@@ -3,7 +3,7 @@ self: super: {
     name = "desktop";
     paths = with self.pkgs; [
       nix cacert # nothing else works without these
-      alacritty
+      alacritty alacritty-yml
       emacs
       file
       firefox configure-firefox
